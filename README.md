@@ -2,16 +2,16 @@
 This repository includes a comprehensive set of indicators associated with stocks of community-based wealth at the county level for the United States. To illustrate their use, we include code and data to evaluate the association between the percentage of farms selling through direct-to-consumer channels and community capital stocks for both metro and nonmetro counties, capturing direct and indirect spillovers.
 
 
-# 1. Community Capital Stocks
+# Community Capital Stocks
 This section contains the community capital stock data created at the county-level.  It includes six types of capital: built, cultural, financial, human, natural, and social. Pricipal Component Analysis is used to create indecies for each capital based on a set of variables for each hypothesized as suitable proxies. Each capital includes two principal components reflecting different dimensions of those capitals, but for financial that has 1 component. The first row of the file names the capital stocks; e.g., for built capital we have pc1b and pc2b, for cultural we have pc1c and pc2c, etc. Due to missing variable issues for some counties, the number of counties used for each varies by capital and ranges from Cultural = 2,881 to Social = 3,066. Maps of the capital stock indices are also included.
 
 - [CapitalPCs061521.xlsx](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CapitalPCs061521.xlsx)
 - [CapitalMaps.zip](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CapitalMaps.zip)
 
-# 2. Code Files
-This section contains the Stata and Matlab code. The first part of the Stata code contains the Principal Component Analysis for each capital and standardizes them into indicies (1-100). This part also computes descriptive statistics of them, differentiated by metro and nonmetro status of the county. The second part of the Stata code estimates the association of the capitals to the percent of farms participating in direct-to-consumer markets using nonspatial (Ordinary Least Squares) and spatial (Spatial Durbin Model) approaches. Marginal effects are also computed. 
+# Code Files
+This section contains the Stata and Matlab code. The first part of the Stata code contains the Principal Component Analysis for each capital and standardizes them into indicies (1-100). This part of the code also computes descriptive statistics, differentiated by metro and nonmetro status. The second part of the Stata code estimates the association of the capitals to the percent of farms participating in direct-to-consumer markets using nonspatial (Ordinary Least Squares) and spatial (Spatial Durbin Model) approaches. Marginal effects are also computed. 
 
-The Matlab code estimates the direct, indirect, and total spatial spillover effects (SDM) of the capital stock variables differentiated by metro, nonmetro-metro-adacent, and nonmetro-nonmetro-adjacent county status, following LeSage and Pace (2009, pp 114-115). 
+The Matlab code estimates the direct, indirect, and total spatial spillover effects (SDM) of the capital stock variables differentiated by metro, nonmetro metro-adacent, and nonmetro nonmetro-adjacent status, following LeSage and Pace (2009, pp 114-115). 
 
 - [CCFinalCodeShare061521.do](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CCFinalCodeShare061521.do)
 - put Matlab code file here. 
