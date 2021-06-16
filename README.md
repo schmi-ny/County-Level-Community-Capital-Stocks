@@ -21,9 +21,7 @@ This section contains the full source data file for all variables used in the Pr
 - [FullDataFile061521.xlsx](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/FullDataFile061521.xlsx)
 
 # More Information
-For more information: Schmit, T.M., B.B.R. Jablonski, A. Bonanno, and T.G. Johnson. 2021. Measuring stocks of community wealth and their association with food systems efforts in rural and urban places. Food Policy, forthcoming.
-
-Corresponding author: T.M. Schmit, tms1@cornell.edu
+Schmit, T.M., B.B.R. Jablonski, A. Bonanno, and T.G. Johnson. 2021. Measuring stocks of community wealth and their association with food systems efforts in rural and urban places. Food Policy, forthcoming.
 
 # Acknowledgements 
 We wish to thank Libby Christensen for her research assistance and John Pender for comments received on construction of the capital stock indices and on prior versions of this manuscript. We are also appreciative of the helpful comments received by attendees of the Advances in the Economic Analysis of Food System Drivers and Effects pre-conference workshop at the Northeastern Agricultural and Resource Economics Association’s 2018 annual meeting where a previous version of this work was presented.
