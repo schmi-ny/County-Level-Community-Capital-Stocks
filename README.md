@@ -8,12 +8,13 @@ This section contains the community capital stock data created at the county-lev
 - [CapitalPCs061521.xlsx](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CapitalPCs061521.xlsx)
 - [CapitalMaps.zip](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CapitalMaps.zip)
 
-# 2. Code File
-This section contains the Stata code. The first part of the code contains the Principal Component Analysis for each capital and standardizes them into indicies (1-100). This part also computes descriptive statistics of them, differentiated by metro and nonmetro status of the county. 
+# 2. Code Files
+This section contains the Stata and Matlab code. The first part of the Stata code contains the Principal Component Analysis for each capital and standardizes them into indicies (1-100). This part also computes descriptive statistics of them, differentiated by metro and nonmetro status of the county. The second part of the Stata code estimates the association of the capitals to the percent of farms participating in direct-to-consumer markets using nonspatial (Ordinary Least Squares) and spatial (Spatial Durbin Model) approaches. Marginal effects are also computed. 
 
-The second part of the code estimates the association of the capitals to the percent of farms participating in direct-to-consumer markets using nonspatial (Ordinary Least Squares) and spatial (Spatial Durbin Model) approaches. Marginal effects are also computed. Direct, indirect, and total spatial spillover effects (SDM) of the capital stock variables are obtained separately in Matlab following LeSage and Pace (2009, pp 114-115). That code is available from the authors upon request.
+The Matlab code estimates the direct, indirect, and total spatial spillover effects (SDM) of the capital stock variables differentiated by metro, nonmetro-metro-adacent, and nonmetro-nonmetro-adjacent county status, following LeSage and Pace (2009, pp 114-115). 
 
 - [CCFinalCodeShare061521.do](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CCFinalCodeShare061521.do)
+- put Matlab code file here. 
 
 LeSage, J., and R.K. Pace. 2009. Introduction to Spatial Econometrics. Boca Raton, FL: Taylor and Francis.
 
