@@ -9,7 +9,7 @@ This section contains the community capital stock data created at the county-lev
 - [CapitalMaps.zip](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CapitalMaps.zip)
 
 # 2. Code Files
-This section contains the Stata and Matlab code. The first part of the Stata code contains the Principal Component Analysis for each capital and standardizes them into indicies (1-100). This part of the code also computes descriptive statistics, differentiated by metro and nonmetro status. The second part of the Stata code estimates the association of the capitals to the percent of farms participating in direct-to-consumer markets using nonspatial (Ordinary Least Squares) and spatial (Spatial Durbin Model) approaches. Marginal effects are also computed. 
+This section contains the Stata and Matlab code. The first part of the Stata code contains the Principal Component Analysis for each capital and standardizes them into indicies (0-100). This part of the code also computes descriptive statistics, differentiated by metro and nonmetro status. The second part of the Stata code estimates the association of the capitals to the percent of farms participating in direct-to-consumer markets using nonspatial (Ordinary Least Squares) and spatial (Spatial Durbin Model) approaches. Marginal effects are also computed. 
 
 The Matlab code estimates the direct, indirect, and total spatial spillover effects (SDM) of the capital stock variables differentiated by metro, nonmetro metro-adacent, and nonmetro nonmetro-adjacent status, following LeSage and Pace (2009, pp 114-115). 
 
