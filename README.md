@@ -11,7 +11,7 @@ This section contains the Stata code. The first part of the code contains the Pr
 
 The second part of the code estimates the association of the capitals to the percent of farms participating in direct-to-consumer markets using nonspatial (Ordinary Least Squares) and spatial (Spatial Durbin Model) approaches. Marginal effects are also computed. Direct, indirect, and total spatial spillover effects (SDM) of the capital stock variables are obtained separately in Matlab following LeSage and Pace (2009, pp 114-115). That code is available from the authors upon request.
 
-- [CCFinalCodeShare061521.do](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/files/6663995/CCFinalCodeShare061521.do)
+- [CCFinalCodeShare061521.do](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CCFinalCodeShare061521.do)
 - LeSage, J., and R.K. Pace. 2009. Introduction to Spatial Econometrics. Boca Raton, FL: Taylor and Francis.
 
 # 3. Source Data File
