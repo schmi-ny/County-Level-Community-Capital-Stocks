@@ -1,0 +1,2 @@
+# County-Level-Community-Capital-Stocks
+This repository includes a comprehensive set of indicators associated with stocks of community-based wealth at the county level for the United States. To illustrate their use, we also include code and data to evaluate the association between the percentage of farms selling through direct-to-consumer channels and community capital stocks for both metro and nonmetro counties, capturing direct and indirect spillovers.
