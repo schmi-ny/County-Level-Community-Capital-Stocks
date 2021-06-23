@@ -13,9 +13,9 @@ This section contains the Stata and Matlab code files. The first part of the Sta
 
 The Matlab code estimates the direct, indirect, and total spatial spillover effects (for the Spatial Durbin Modedl) of the capital stock variables differentiated by metro, nonmetro metro-adacent, and nonmetro nonmetro-adjacent status, following LeSage and Pace (2009, pp 114-115). The Excel file of coordinates is needed to run this code.
 
-- Stata code: [CapCodeStata061521.do] (https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CapCodeStata061521.do)
-- Matlab code: [CapCodeMatlab061521.m] (https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CapCodeMatlab061521.m)
-- Coordinates file for Matlab: [Coordinates.xlsx] (https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/Coordinates.xlsx)
+- Stata code: [CapCodeStata061521.do](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CapCodeStata061521.do)
+- Matlab code: [CapCodeMatlab061521.m](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/CapCodeMatlab061521.m)
+- Coordinates file for Matlab: [Coordinates.xlsx](https://github.com/schmi-ny/County-Level-Community-Capital-Stocks/blob/main/Coordinates.xlsx)
 
 LeSage, J., and R.K. Pace. 2009. Introduction to Spatial Econometrics. Boca Raton, FL: Taylor and Francis.
 
